@@ -4,6 +4,7 @@ import { ParameterPanel } from "@/components/ParameterPanel";
 import { CalculationsPanel } from "@/components/CalculationsPanel";
 import { IrrigationCanvas } from "@/components/IrrigationCanvas";
 import { ExportPanel } from "@/components/ExportPanel";
+import { PresetSelector } from "@/components/PresetSelector";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Settings2, BarChart3, ChevronLeft, ChevronRight } from "lucide-react";
@@ -89,7 +90,10 @@ export default function IrrigationDesigner() {
                 {calculations.numLaterals} laterals × {calculations.emittersPerLateral} emitters
               </span>
             </div>
-            <ExportPanel params={params} calculations={calculations} />
+            <div className="flex items-center gap-2">
+              <PresetSelector onSelect={setParams} />
+              <ExportPanel params={params} calculations={calculations} />
+            </div>
           </div>
 
           <div className="flex-1 overflow-hidden">
