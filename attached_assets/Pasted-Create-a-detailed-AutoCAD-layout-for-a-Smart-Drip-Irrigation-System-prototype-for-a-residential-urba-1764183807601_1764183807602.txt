@@ -1,0 +1,56 @@
+Create a detailed AutoCAD layout for a Smart Drip Irrigation System prototype for a residential/urban plot of 50 m² (10m x 5m) in Gaza. The design must be scientific, precise, and clearly labeled with all dimensions, flow rates, pipe diameters, and component specifications. Include the following elements:
+
+1. Water Source:
+   - Small reservoir/tank or direct connection to treated water source.
+   - Label with water capacity if tank.
+
+2. Pump:
+   - Ensure pump can provide at least 2.0 bar at 0.183 L/s (660 L/h).
+   - Label flow rate and pressure.
+
+3. Filtration System:
+   - Mesh or disc filter to prevent emitter clogging.
+   - Indicate inlet and outlet connections.
+
+4. Mainline:
+   - Pipe type: PVC/PE
+   - Diameter: 25 mm (3/4 inch)
+   - Route from pump/filter to the lateral lines.
+   - Show flow direction.
+
+5. Control Valve:
+   - Solenoid valve for automatic irrigation.
+   - Indicate valve location on mainline.
+
+6. Lateral Lines:
+   - 10 lateral lines, each 10m long, spaced 0.5m apart.
+   - Pipe diameter: 16 mm (1/2 inch)
+   - Connect to mainline.
+   - Label each lateral line with flow rate (~0.018 L/s).
+
+7. Emitters:
+   - 33 emitters per lateral line, spaced 0.3m apart.
+   - Flow per emitter: 2 L/h
+   - Show connection to lateral lines.
+   - Indicate precise placement.
+
+8. Smart Controller:
+   - Connects to soil moisture sensors and weather sensor.
+   - Indicate controller location.
+   - Draw sensor placement across the plot (e.g., 2-3 sensors).
+
+9. Elevations and Pressure:
+   - Show total dynamic head calculation (TDH ~1.6 bar).
+   - Indicate flow direction and pressure at key points.
+
+10. Labels and Dimensions:
+    - Include all pipe diameters, lengths, emitter spacing, and flow rates.
+    - Show overall plot dimensions (10m x 5m).
+    - Include clear symbols for pump, filter, valve, controller, and emitters.
+
+11. Aesthetic and Clarity:
+    - Use standard CAD symbols for irrigation components.
+    - Ensure all lines are straight, angles precise, and layout easy to read.
+    - Include a title block with project name, date, designer, and scale.
+
+Output: Ready-to-use CAD drawing with all layers properly organized (water source, mainline, laterals, emitters, control devices). 
